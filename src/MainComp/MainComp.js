@@ -1,5 +1,5 @@
 import './MainComp.module.css';
-
+import View from '../View/display';
 import Add from '../Add/add';
 import Update from '../Update/update';
 
@@ -9,8 +9,9 @@ function MainComp() {
   return (
     <div className="MainComp">
         <Router>
-      <Route path = "/add" component = {Add}></Route>
-      <Route path = "/update" component = {Update}>
+        <Route path = "/view" component = {View}></Route>
+        <Route path = "/add" component = {Add}></Route>
+        <Route path = "/update" component = {Update}>
          
       </Route>
    </Router>

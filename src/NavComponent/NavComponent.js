@@ -7,10 +7,10 @@ function NavComponent() {
     <Navbar bg="dark" variant="dark" sticky="top">
     <Navbar.Brand href="#home">Address Book</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="/">ViewAll</Nav.Link>
+      <Nav.Link href="/view">ViewAll</Nav.Link>
       <Nav.Link href="/add">Add</Nav.Link>
       <Nav.Link href="/update">Update</Nav.Link>
-      <Nav.Link href="#delete">Delete</Nav.Link>
+      <Nav.Link href="/delete">Delete</Nav.Link>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
